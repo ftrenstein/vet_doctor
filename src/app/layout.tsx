@@ -9,7 +9,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: "Геннадий Иванович | Ветеринарный врач",
-  description: "Лендинг ветеринарного врача с быстрым контактом через WhatsApp и Telegram.",
+  description: "Врач на дом с 30+ лет практики. Быстрый выезд, понятные рекомендации и забота о вашем питомце.",
 };
 
 export default function RootLayout({

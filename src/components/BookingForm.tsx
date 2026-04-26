@@ -55,6 +55,11 @@ export default function BookingForm() {
                 className="h-11 rounded-xl border border-[#cfd9d2] bg-white px-3 text-sm outline-none focus:border-[#3f6653]"
             />
             <input
+                name="email"
+                placeholder="Email"
+                className="h-11 rounded-xl border border-[#cfd9d2] bg-white px-3 text-sm outline-none focus:border-[#3f6653]"
+            />
+            <input
                 name="pet"
                 placeholder="Питомец (кот, собака...)"
                 className="h-11 rounded-xl border border-[#cfd9d2] bg-white px-3 text-sm outline-none focus:border-[#3f6653]"

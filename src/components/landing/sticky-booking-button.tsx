@@ -34,7 +34,7 @@ export function StickyBookingButton() {
                     <Button
                         type="button"
                         size="xl"
-                        className="pointer-events-auto w-full shadow-2xl"
+                        className="cta-glow-pulse pointer-events-auto w-full shadow-2xl"
                         onClick={() => setOpen(true)}
                     >
                         <CalendarClock className="mr-2 size-5" />

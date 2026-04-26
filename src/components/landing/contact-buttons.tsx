@@ -36,7 +36,7 @@ export function ContactButtons({
                     Telegram
                 </a>
             </Button>
-            <Button asChild variant="default" size={size}>
+            <Button asChild variant="soft" size={size}>
                 <a href={phoneHref}>
                     <Phone className="mr-2 size-5" />
                     {phoneLabel}

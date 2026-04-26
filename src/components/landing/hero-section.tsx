@@ -14,14 +14,13 @@ export function HeroSection() {
                         Геннадий Иванович
                     </h1>
                     <p className="max-w-xl text-lg leading-relaxed text-[#495850]">
-                        30+ лет практики. Быстрый выезд, понятные рекомендации и забота о вашем питомце.
+                        Врач на дом с 30+ лет практики. Быстрый выезд, понятные рекомендации и забота о вашем питомце.
                     </p>
 
                     <ContactButtons
                         whatsappHref={contact.whatsappHref}
                         telegramHref={contact.telegramHref}
                         phoneHref={contact.phoneHref}
-                        phoneLabel={contact.phone}
                     />
                 </div>
 

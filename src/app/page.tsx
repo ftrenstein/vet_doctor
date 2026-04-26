@@ -17,11 +17,11 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <ServicesSection />
+        <FinalCtaSection />
         <PricingSection />
         <ProcessSection />
         <ReviewsSection />
         <ContactsSection />
-        <FinalCtaSection />
       </main>
       <StickyBookingButton />
     </div>
