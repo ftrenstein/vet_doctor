@@ -20,6 +20,22 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Booking Form Email Setup
+
+1. Copy `.env.example` to `.env.local`.
+2. Fill SMTP settings and recipient email.
+3. Run `npm run dev`.
+
+Required variables:
+
+- `SMTP_HOST`
+- `SMTP_PORT`
+- `SMTP_SECURE`
+- `SMTP_USER`
+- `SMTP_PASS`
+- `BOOKING_TO_EMAIL`
+- `BOOKING_FROM_EMAIL`
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
