@@ -23,10 +23,15 @@ export function PricingSection() {
                                     {group.rows.map((row) => (
                                         <div
                                             key={row.name}
-                                            className="flex items-center justify-between gap-4 border-b border-[#e1e7e2] py-2 text-sm"
+                                            className="flex items-start justify-between gap-4 border-b border-[#e1e7e2] py-2 text-sm"
                                         >
-                                            <span className="text-[#4f5a53]">{row.name}</span>
-                                            <span className="font-bold text-[#1f2a24]">{row.price}</span>
+                                            <div className="pr-2">
+                                                <p className="text-[#32413a]">{row.name}</p>
+                                                {/* {row.note ? (
+                                                    <p className="mt-0.5 text-xs text-[#6b7971]">{row.note}</p>
+                                                ) : null} */}
+                                            </div>
+                                            <span className="text-right font-bold text-[#1f2a24]">{row.price}</span>
                                         </div>
                                     ))}
                                 </div>

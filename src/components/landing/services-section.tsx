@@ -30,7 +30,7 @@ export function ServicesSection() {
                                 </CardHeader>
                                 <CardContent className="space-y-3">
                                     <p className="text-sm leading-relaxed text-[#4f5a53]">{service.description}</p>
-                                    <p className="text-lg font-extrabold text-[#254736]">{service.price}</p>
+                                    {/* <p className="text-lg font-extrabold text-[#254736]">{service.price}</p> */}
                                 </CardContent>
                             </Card>
                         );

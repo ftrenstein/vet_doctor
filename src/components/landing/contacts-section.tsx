@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { MapPin } from "lucide-react";
 
 import { ContactButtons } from "@/components/landing/contact-buttons";
 import { contact } from "@/components/landing/data";
