@@ -1,33 +1,27 @@
-import type { Metadata } from "next";
-
 import { AboutSection } from "@/components/landing/about-section";
 import { BookingFormSection } from "@/components/landing/booking-form-section";
 import { ContactsSection } from "@/components/landing/contacts-section";
 import { FinalCtaSection } from "@/components/landing/final-cta-section";
 import { Header } from "@/components/landing/header";
-import { HeroSection } from "@/components/landing/hero-section";
 import { PricingSection } from "@/components/landing/pricing-section";
 import { ProcessSection } from "@/components/landing/process-section";
 import { ReasonsSection } from "@/components/landing/reasons-section";
 import { ReviewsSection } from "@/components/landing/reviews-section";
 import { ServicesSection } from "@/components/landing/services-section";
 import { StickyBookingButton } from "@/components/landing/sticky-booking-button";
+import { CityHeroSection } from "@/components/seo/city-hero-section";
+import type { CityData } from "@/data/cities";
 
-export const metadata: Metadata = {
-    title: "Ветеринар на дом в Москве и МО — выезд 24/7 | vet-doctor-24.ru",
-    description:
-        "Ветеринарный врач высшей категории с выездом на дом по Москве и Московской области. 30+ лет практики. Осмотр, лечение, вакцинация, хирургия. Звоните: 8 (903) 729-81-33.",
-    alternates: {
-        canonical: "https://vet-doctor-24.ru",
-    },
-};
+interface SeoCityPageProps {
+    city: CityData;
+}
 
-export default function Home() {
+export function SeoCityPage({ city }: SeoCityPageProps) {
     return (
         <div className="min-h-screen bg-[#f7faf5]">
             <Header />
             <main className="pb-28">
-                <HeroSection />
+                <CityHeroSection city={city} />
                 <AboutSection />
                 <ServicesSection />
                 <ReasonsSection />

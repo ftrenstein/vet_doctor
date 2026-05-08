@@ -3,7 +3,7 @@ export const contact = {
     phoneHref: "tel:+79037298133",
     whatsappHref: "https://wa.me/79037298133",
     telegramHref: "https://t.me/+79037298133",
-    email: "gennadiy.0867@mail.ru",
+    email: "pilatera@mail.ru",
     location: "Выезд по Москве и МО",
 };
 

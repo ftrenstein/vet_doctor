@@ -17,12 +17,12 @@ export function Header() {
                     Вызов ветеринара на дом
                 </a>
 
-                <nav className="hidden items-center gap-4 md:flex">
+                <nav className="hidden items-center gap-1 md:flex">
                     {navItems.map((item) => (
                         <a
                             key={item.href}
                             href={item.href}
-                            className="text-sm font-medium text-[#415049] transition-colors hover:text-[#2f5140]"
+                            className="rounded-lg px-3 py-1.5 text-sm font-medium text-[#415049] transition-all duration-200 hover:bg-[#3f6653]/10 hover:text-[#2f5140]"
                         >
                             {item.label}
                         </a>
