@@ -42,6 +42,44 @@ export const metadata: Metadata = {
     },
 };
 
+const schemaOrg = {
+    "@context": "https://schema.org",
+    "@type": "VeterinaryCare",
+    name: "Ветеринар на дом — Геннадий Иванович",
+    url: "https://vet-doctor-24.ru",
+    telephone: "+79037298133",
+    email: "pilatera@mail.ru",
+    description:
+        "Ветеринарный врач высшей категории с выездом на дом по Москве и Московской области. 30+ лет практики.",
+    areaServed: [
+        { "@type": "City", name: "Москва" },
+        { "@type": "City", name: "Подольск" },
+        { "@type": "City", name: "Одинцово" },
+        { "@type": "City", name: "Наро-Фоминск" },
+        { "@type": "City", name: "Чехов" },
+        { "@type": "City", name: "Апрелевка" },
+    ],
+    serviceType: [
+        "Осмотр и диагностика",
+        "Вакцинация",
+        "Лечение",
+        "Хирургия",
+        "Выезд на дом",
+        "Онлайн-консультация",
+    ],
+    priceRange: "₽₽",
+    availableLanguage: "Russian",
+    makesOffer: [
+        { "@type": "Offer", name: "Осмотр и консультация", price: "1500", priceCurrency: "RUB" },
+        { "@type": "Offer", name: "Вакцинация", price: "2500", priceCurrency: "RUB" },
+        { "@type": "Offer", name: "Выезд на дом", price: "1200", priceCurrency: "RUB" },
+    ],
+    sameAs: [
+        "https://wa.me/79037298133",
+        "https://t.me/+79037298133",
+    ],
+};
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -49,6 +87,12 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ru" className={`${manrope.variable} h-full antialiased`}>
+            <head>
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg) }}
+                />
+            </head>
             <body className="min-h-full flex flex-col">{children}</body>
         </html>
     );
