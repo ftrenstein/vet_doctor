@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vet-doctor-24.ru/sitemap.xml
