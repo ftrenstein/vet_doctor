@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-05-10">
+  <shop>
+    <name>Ветеринар на дом — Геннадий Иванович</name>
+    <company>Ветеринар на дом</company>
+    <url>https://vet-doctor-24.ru</url>
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+    <categories>
+      <category id="1">Осмотр и диагностика</category>
+      <category id="2">Лечение</category>
+      <category id="3">Вакцинация</category>
+      <category id="4">Хирургия</category>
+      <category id="5">Стоматология</category>
+      <category id="6">Дополнительные услуги</category>
+      <category id="7">Передержка</category>
+    </categories>
+    <offers>
+
+      <offer id="101" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Осмотр и консультация</model>
+        <price>1500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Первичный осмотр питомца на дому, постановка диагноза, план лечения и понятные рекомендации владельцу.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="102" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Диагностика</model>
+        <price>500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Диагностические процедуры на дому. Первичная оценка состояния питомца.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="103" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Капельница</model>
+        <price>1800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Внутривенное введение препаратов на дому.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="201" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Лечение собак</model>
+        <price>600</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Терапевтическое лечение собак на дому. Стоимость от 600 до 1200 ₽ в зависимости от объёма помощи.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="202" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Лечение кошек</model>
+        <price>800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Терапевтическое лечение кошек на дому.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="203" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Лечение птиц</model>
+        <price>1200</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Лечение декоративных и домашних птиц на дому.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="204" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Лечение грызунов</model>
+        <price>500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Лечение кроликов, хомяков, морских свинок и других грызунов на дому.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="301" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Вакцинация</model>
+        <price>2500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Вакцинация кошек и собак на дому. Препараты Nobivac, Eurican и проверенные аналоги. Стоимость от 2500 до 6000 ₽.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="302" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Оформление ветеринарного паспорта</model>
+        <price>500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Оформление ветеринарного паспорта для питомца.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="401" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Стерилизация</model>
+        <price>3200</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Стерилизация кошек и собак на дому. Стоимость от 3200 до 6000 ₽.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="402" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Кастрация</model>
+        <price>2200</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Кастрация котов и кобелей на дому. Стоимость от 2200 до 3500 ₽.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="403" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Малые хирургические операции</model>
+        <price>800</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Малые операции на дому: удаление новообразований, обработка ран и др.</description>
+        <sales_notes>Выезд на дом по Москве и МО</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="501" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Чистка зубов</model>
+        <price>1000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>5</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Профессиональная чистка зубов питомца на дому.</description>
+        <sales_notes>Стоимость по договорённости</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="601" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Выезд на дом</model>
+        <price>1200</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>6</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Выезд ветеринарного врача на дом по Москве и Московской области. Стоимость от 1200 до 3000 ₽ в зависимости от расстояния.</description>
+        <sales_notes>Москва и МО, в день обращения</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="602" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Онлайн-консультация</model>
+        <price>1000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>6</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Быстрая онлайн-консультация по телефону или мессенджеру. Первичная оценка состояния питомца.</description>
+        <sales_notes>По телефону или WhatsApp/Telegram</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="701" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Передержка собак</model>
+        <price>1000</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>7</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Передержка собак у ветеринарного врача. Присмотр, кормление, при необходимости — медицинский контроль. Стоимость от 1000 ₽ в день.</description>
+        <sales_notes>От 1000 ₽ в день</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+      <offer id="702" type="vendor.model">
+        <vendor>Ветеринар на дом</vendor>
+        <model>Передержка кошек</model>
+        <price>500</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>7</categoryId>
+        <picture>https://vet-doctor-24.ru/hero-vet.jpeg</picture>
+        <description>Передержка кошек у ветеринарного врача. Присмотр, кормление, при необходимости — медицинский контроль. Стоимость от 500 ₽ в день.</description>
+        <sales_notes>От 500 ₽ в день</sales_notes>
+        <url>https://vet-doctor-24.ru/#services</url>
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>
