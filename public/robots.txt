@@ -1,3 +1,10 @@
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+Host: vet-doctor-24.ru
+
 User-agent: *
 Allow: /
 
